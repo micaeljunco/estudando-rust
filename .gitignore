@@ -1,0 +1,5 @@
+# Ignorar executáveis
+*.exe
+
+# Ignorar a pasta target (gerada pelo cargo)
+target/
