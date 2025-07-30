@@ -11,10 +11,10 @@ use rand::Rng;
 
 fn main() {
     println!("Adivinhe o número!");
-    println!("Digite sua adivinhação: ");
+    println!("Digite seu palpite: ");
 
     let numero_secreto = rand::thread_rng()
-        .gen_range(1..=100);
+        .gen_range(1, 101);
 
     // Em Rust, variáveis são imutáveis por padrão.
     // Aqui usamos 'mut' para permitir que o valor da variável mude.
